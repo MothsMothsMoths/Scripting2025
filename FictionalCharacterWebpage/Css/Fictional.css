@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+header {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #000000;
+    color: #7c34c0;
+    padding: 50px;
+}
+
+/*Need custom fonts for the project*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #111111;
+}
+
+ul li{
+    padding: 24px;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 24px;
+    background-color: #7c34c0;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+}
+
+img {
+    -webkit-box-shadow: 1px 1px 10px 0px #000000;
+    box-shadow: 1px 1px 10px 0px #000000;
+}
+
+/* unvisited link */
+a:link {
+    color: #000000;
+}
+
+/* visited link */
+a:visited {
+    color: #a79606;
+}
+
+/* mouse over link */
+a:hover {
+    color: #bb8001;
+}
+
+/* selected link */
+a:active {
+    color: #0ace0a;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff79;
+}
